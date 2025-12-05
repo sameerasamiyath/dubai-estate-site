@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Estate Dubai</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rtl.css" id="rtlLink" disabled>
+</head>
+
+<body>
+
+<!-- NAVIGATION BAR -->
+<header class="glass-nav">
+    <div class="nav-logo">ROYAL <span>ESTATE</span></div>
+
+    <nav class="nav-links">
+        <a href="#home" class="scroll-link">Home</a>
+        <a href="#properties" class="scroll-link">Properties</a>
+        <a href="#features" class="scroll-link">Features</a>
+        <a href="#plans" class="scroll-link">Plans</a>
+        <a href="#testimonials" class="scroll-link">Testimonials</a>
+        <a href="#about" class="scroll-link">About</a>
+        <a href="#contact" class="scroll-link">Contact</a>
+    </nav>
+
+    <div class="switchers">
+        <button onclick="toggleDarkMode()">🌙</button>
+        <button onclick="toggleRTL()">عربي</button>
+    </div>
+</header>
+
+
+<!-- HERO SECTION -->
+<section id="home" class="hero reveal">
+    <div class="hero-content">
+        <h1>Luxury Real Estate in Dubai</h1>
+        <p>Premium Apartments • Skyline Views • Elite Lifestyle</p>
+        <button class="btn-main" onclick="openModal()">Book Viewing</button>
+    </div>
+</section>
+
+
+<!-- PROPERTIES SECTION -->
+<section id="properties" class="gallery reveal">
+    <h2>Featured Properties</h2>
+
+    <div class="gallery-grid">
+        <img src="apt1.jpg" alt="Property 1">
+        <img src="apt2.jpg" alt="Property 2">
+        <img src="apt3.jpg" alt="Property 3">
+        <img src="apt4.jpg" alt="Property 4">
+        <img src="apt5.jpg" alt="Property 5">
+        <img src="apt6.jpg" alt="Property 6">
+    </div>
+</section>
+
+
+<!-- FEATURES SECTION -->
+<section id="features" class="features reveal">
+    <h2>Luxury Highlights</h2>
+
+    <div class="feature-grid">
+        <div class="feature-card">
+            <img src="service1.jpg">
+            <h3>Sky Lounge Lobby</h3>
+            <p>Magnificent marble entrance with gold strips and panoramic glass views.</p>
+        </div>
+
+        <div class="feature-card">
+            <img src="service2.jpg">
+            <h3>Infinity Balcony</h3>
+            <p>Uninterrupted skyline view directly from your luxury private balcony.</p>
+        </div>
+
+        <div class="feature-card">
+            <img src="service3.jpg">
+            <h3>Royal Club Hallway</h3>
+            <p>Premium futuristic hallway with gold LED lighting panels and luxury finishing.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- TESTIMONIALS SECTION -->
+<section id="testimonials" class="testimonials reveal">
+    <div class="testimonial-bg"></div>
+    <h2>Client Testimonials</h2>
+
+    <div class="testimonial-cards">
+        <div class="testimonial">
+            <p>“The skyline view from my penthouse is indescribable. Truly the best luxury living experience.”</p>
+            <h4>- Aysha K, Dubai Marina</h4>
+        </div>
+
+        <div class="testimonial">
+            <p>“We found a breathtaking duplex with incredible interiors. Royal Estate is exceptional.”</p>
+            <h4>- Haroon M, Downtown Dubai</h4>
+        </div>
+    </div>
+</section>
+
+
+<!-- BRANDS SECTION -->
+<section class="brands reveal">
+    <div class="brands-bg"></div>
+    <h2>Trusted By Leading Developers</h2>
+
+    <div class="brand-logos">
+        <span>EMAAR</span>
+        <span>SOBHA</span>
+        <span>DAMAC</span>
+        <span>NAKHEEL</span>
+        <span>MERAAS</span>
+    </div>
+</section>
+
+
+<!-- PRICING SECTION -->
+<section id="plans" class="pricing reveal">
+    <h2>Investment Packages</h2>
+
+    <div class="price-grid">
+
+        <div class="price-box">
+            <h3>Standard Suite</h3>
+            <h1>1.2M AED</h1>
+            <p>Premium City View</p>
+            <button class="btn-main">Details</button>
+        </div>
+
+        <div class="price-box gold">
+            <h3>Royal Duplex</h3>
+            <h1>2.8M AED</h1>
+            <p>Burj Khalifa View • Private Pool</p>
+            <button class="btn-main">Details</button>
+        </div>
+
+        <div class="price-box">
+            <h3>Elite Penthouse</h3>
+            <h1>4.9M AED</h1>
+            <p>Sky Terrace • Luxury Interiors</p>
+            <button class="btn-main">Details</button>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about reveal">
+    <h2>About Royal Estate</h2>
+    <p>
+        Royal Estate offers next-level luxury residential properties across Dubai.
+        With skyline views, prime locations, and premium architectural quality,
+        our listings are ideal for exclusive living and high ROI investment.
+    </p>
+</section>
+
+
+<!-- MAP SECTION -->
+<section class="map reveal">
+    <h2>Visit Our Office</h2>
+
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.4258229132434!2d55.27778837537836!3d25.204849835883867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f4346ecae3391%3A0x4f3d6f1d8da6b57c!2sDowntown%20Dubai!5e0!3m2!1sen!2sae!4v1706549639843!5m2!1sen!2sae"
+        width="100%"
+        height="380"
+        frameborder="0"
+        style="border:0;"
+        allowfullscreen
+        loading="lazy">
+    </iframe>
+</section>
+
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact reveal">
+    <h2>Contact Us</h2>
+    <p>📍 Downtown Dubai</p>
+    <p>📞 +971 55 987 3456</p>
+    <button class="btn-main" onclick="openModal()">Book Viewing</button>
+</section>
+
+
+<!-- WHATSAPP BUTTON -->
+<a href="https://wa.me/971559873456" class="whatsapp-btn" target="_blank">💬</a>
+
+
+<!-- MODAL FORM -->
+<div class="modal-bg" id="modalBg">
+    <div class="modal-box reveal">
+        <h2>Book Property Viewing</h2>
+
+        <input type="text" placeholder="Your Name">
+        <input type="tel" placeholder="Your Phone">
+        <select>
+            <option>Select Property Type</option>
+            <option>Penthouse</option>
+            <option>Duplex Suite</option>
+            <option>Luxury Apartment</option>
+        </select>
+
+        <button class="btn-main" onclick="submitForm()">Submit</button>
+        <p class="close-btn" onclick="closeModal()">Close</p>
+    </div>
+</div>
+
+
+<!-- FOOTER -->
+<footer>
+    © 2025 Royal Estate Dubai | Designed by Sameera Samiyath
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

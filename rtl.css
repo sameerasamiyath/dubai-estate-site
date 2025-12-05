@@ -1,0 +1,94 @@
+/* =========================================================
+   RTL MODE STYLES
+   This file activates only when enabled via script.js
+   rtlLink.disabled = false
+========================================================= */
+
+/* Entire document becomes RTL */
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Navigation alignment */
+.nav-links a{
+    margin-right: 25px;
+    margin-left: 0;
+}
+
+/* Switchers button alignment */
+.switchers button{
+    margin-right: 12px;
+    margin-left: 0;
+}
+
+/* Hero text alignment */
+.hero-content{
+    text-align: right;
+}
+
+/* Gallery grid reversed */
+.gallery-grid{
+    direction: rtl;
+}
+
+/* Feature cards reversed */
+.feature-grid{
+    direction: rtl;
+}
+
+/* Feature card text alignment */
+.feature-card p{
+    text-align: right;
+}
+.feature-card h3{
+    text-align: right;
+}
+
+/* Testimonials */
+.testimonial-cards{
+    direction: rtl;
+}
+.testimonial{
+    text-align: right;
+}
+
+/* Brand logos alignment */
+.brand-logos{
+    direction: rtl;
+}
+
+/* Price cards */
+.price-grid{
+    direction: rtl;
+}
+.price-box{
+    text-align: right;
+}
+
+/* About text */
+.about p{
+    text-align: right;
+}
+
+/* Contact details alignment */
+.contact p{
+    text-align: right;
+}
+
+/* Modal RTL fixes */
+.modal-box{
+    direction: rtl;
+}
+.modal-box input,
+.modal-box select{
+    text-align: right;
+}
+.close-btn{
+    text-align: center;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+}

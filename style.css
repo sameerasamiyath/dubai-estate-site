@@ -484,3 +484,50 @@ footer{
         grid-template-columns: 1fr;
     }
 }
+/* your existing CSS code above */
+
+/* Responsive for Tablets & Mobiles */
+@media (max-width: 992px) {
+  header nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .properties-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Very Small Screens (Mobile) */
+@media (max-width: 600px) {
+  .properties-grid {
+    grid-template-columns: 1fr;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .plan-card {
+    padding: 20px;
+  }
+
+  h2.section-title {
+    font-size: 1.5rem;
+  }
+}
+
